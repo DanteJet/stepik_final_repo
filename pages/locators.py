@@ -9,6 +9,6 @@ class LoginPageLocators:
     LOGIN_PASSWORD = (By.CSS_SELECTOR, "#id_login-password")
     LOGIN_BUTTON = (By.XPATH, "//button[@name='login_submit']")
     REGISTRATION_EMAIL = (By.CSS_SELECTOR, "#id_registration-email")
-    REGISTRATION_PASSWORD1 = (By.CSS_SELECTOR, "#id_id_registration-password1")
-    REGISTRATION_PASSWORD2 = (By.CSS_SELECTOR, "#id_id_registration-password2")
+    REGISTRATION_PASSWORD1 = (By.CSS_SELECTOR, "#id_registration-password1")
+    REGISTRATION_PASSWORD2 = (By.CSS_SELECTOR, "#id_registration-password2")
     REGISTRATION_BUTTON = (By.XPATH, "//button[@name='registration_submit']")
